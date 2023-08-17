@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stune | Student Needs</title>
+    <link rel="shortcut icon" type="x-icon" href="/images/Stune Logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/Stune Logo.png" width="20%"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <!------------------ brands ------------------------->
+    <div class="service">
+      <div class="title">
+        <h2>Social Media</h2>
+      </div>
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <a href="https://www.instagram.com/stune_official/"
+              ><img src="images/ig.png"
+            /></a>
+          </div>
+          <div class="col-5">
+            <a href="https://www.tiktok.com/@stuneiium"
+              ><img src="images/tiktok.png"
+            /></a>
+          </div>
+          <div class="col-5">
+            <a href="https://twitter.com/stune_stune"
+              ><img src="images/twitter 2.png"
+            /></a>
+          </div>
+          <div class="col-5">
+            <a href="https://web.facebook.com/StayTuneWithStune?locale=ms_MY"
+              ><img src="images/fb.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------ footer ------------------------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-2">
+            <img src="images/Stune Logo.png" />
+            <p>All you needs are here.</p>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2023 - Stune</p>
+      </div>
+    </div>
+
+    <!------------------ js for toggle menu ------------------------->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style, (maxHeight = "0px");
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
