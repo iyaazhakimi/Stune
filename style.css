@@ -29,7 +29,7 @@ a {
 }
 a:hover {
   cursor: pointer;
-  color: #0de3ac;
+  color: #98e05f;
 }
 p {
   color: #555;
@@ -61,7 +61,7 @@ p {
 }
 .btn {
   display: inline-block;
-  background: #0de3ac;
+  background: #98e05f;
   color: #fff;
   padding: 8px 30px;
   margin: 30px 0;
@@ -69,7 +69,7 @@ p {
   transition: background 0.5s;
 }
 .btn:hover {
-  background: #98e05f;
+  background: #0de3ac;
   color: #fff;
 }
 .header {
@@ -114,7 +114,7 @@ p {
 }
 .title::after {
   content: "";
-  background: #0de3ac;
+  background: #cac3a9;
   width: 80px;
   height: 5px;
   border-radius: 5px;
@@ -131,7 +131,7 @@ h4 {
   font-size: 14px;
 }
 .rating .fa {
-  color: #98e05f;
+  color: #cac3a9;
 }
 .col-4:hover {
   transform: translateY(-5px);
@@ -171,7 +171,7 @@ small {
 }
 .fa.fa-quote-left {
   font-size: 34px;
-  color: #98e05f;
+  color: #cac3a9;
 }
 .col-3 p {
   font-size: 12px;
@@ -262,6 +262,10 @@ ul {
   margin-left: 20px;
   display: none;
 }
+.service {
+  width: 100%;
+  padding: 60px 4% 10% 4%;
+}
 
 /*----- media query for menu ------*/
 
@@ -310,8 +314,13 @@ ul {
     font-size: 40px;
   }
   .col-5 img {
-    width: 60%;
+    width: 70%;
     padding-left: 30%;
+    padding-bottom: 20%;
+  }
+  .service {
+    width: 100%;
+    padding: 20% 4% 20% 4%;
   }
 }
 
@@ -473,9 +482,14 @@ th:last-child {
   .col-5 img {
     width: 50%;
     padding: 10px;
+    padding-bottom: 20%;
   }
   .col-2 img {
     width: 50%;
     padding-left: 0%;
+  }
+  .service {
+    width: 100%;
+    padding: 50% 4% 20% 4%;
   }
 }
